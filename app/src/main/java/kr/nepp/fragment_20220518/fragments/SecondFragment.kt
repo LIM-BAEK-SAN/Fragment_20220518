@@ -5,8 +5,10 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_first.*
+import kotlinx.android.synthetic.main.fragment_second.*
 import kr.nepp.fragment_20220518.R
 
 class SecondFragment : Fragment() {
@@ -26,9 +28,9 @@ class SecondFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        btnLog.setOnClickListener {
+        btnToast.setOnClickListener {
 
-            Log.d("첫 프래그먼트", "프래그먼트에서의 로그")
+            Toast.makeText(requireContext(), "프래그먼트에서 토스트", Toast.LENGTH_SHORT).show()
         }
     }
 }
