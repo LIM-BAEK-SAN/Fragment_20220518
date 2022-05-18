@@ -14,4 +14,10 @@
         android:layout_height="250dp"
         class="kr.nepp.fragment_20220518.fragments.FirstFragment"/>
 
+    <fragment
+        android:id="@+id/secondFrag"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="kr.nepp.fragment_20220518.fragments.SecondFragment"
+
 </LinearLayout>
