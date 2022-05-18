@@ -8,4 +8,10 @@
     tools:context=".MainActivity">
 
 
+    <fragment
+        android:tag="firstFrag"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="kr.nepp.fragment_20220518.fragments.FirstFragment"/>
+
 </LinearLayout>
